@@ -11,14 +11,14 @@ import android.widget.EditText;
 public class RegisterActivity extends Activity{
 	
 	public static final int  REQUEST_CODE = 1;
-	
+	@Override
 	protected void onCreate(Bundle savedInstanceState)  {
-		
+		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.register_game);
 		Button submit =(Button)findViewById(R.id.submit);
 		submit.setOnClickListener(new OnClickListener()  {
-			
+			//Click submit button player moved to GameActivity
 			public void onClick(View v)  {
 				 
 				Intent intent = new Intent(getApplicationContext(),GameActivity.class);

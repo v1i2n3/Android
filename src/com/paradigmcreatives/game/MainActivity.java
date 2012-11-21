@@ -10,9 +10,10 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements OnClickListener  {
 	
-	
+	@Override
 	public void onCreate(Bundle savedInstanceState)   {
 		
+        // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
@@ -38,7 +39,7 @@ public class MainActivity extends Activity implements OnClickListener  {
     
 	}
     
-  
+  // Selected option will be shown when user selects an option from menu 
 public void onClick(View v)   {
   
 	Intent intent;
@@ -74,9 +75,10 @@ case R.id.button5:
 	
 }
 
-   
+    @Override 
     public boolean onCreateOptionsMenu(Menu menu) {
        
+        // TODO Auto-generated method stub
     	getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
         
