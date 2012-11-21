@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="center"
+    android:padding="60dip">
+    
+    <TableRow >
+        <ImageButton  
+            android:id="@+id/btn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="1"
+           />
+         <ImageButton 
+            android:id="@+id/btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="2"
+          />
+          <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="3"
+           />        
+    </TableRow>
+    
+  <TableRow >
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="4"
+           />
+         <ImageButton
+            android:id="@+id/btn5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="5"
+          />
+          <ImageButton
+            android:id="@+id/btn6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="6"
+           />            
+    </TableRow>  
+    
+  <TableRow >
+        <ImageButton
+            android:id="@+id/btn7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="7"
+           />
+         <ImageButton
+            android:id="@+id/btn8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="8"
+          />
+          <ImageButton
+            android:id="@+id/btn9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:tag="9"
+           />      
+    </TableRow>
+    
+  <TextView android:id="@+id/subtitle"   
+  android:text="@string/choice1"  
+/>  
+<TableRow>  
+<Button android:onClick="close"  
+ android:text="@string/gameto_mainmenu"  
+/>  
+<Button android:onClick="restart"  
+ android:text="@string/play_again"  
+/>  
+</TableRow>  
+    
+
+</TableLayout>
