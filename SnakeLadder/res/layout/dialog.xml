@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:orientation="vertical" 
+    android:background="@drawable/dialog">
+    
+  <TextView 
+      android:id="@+id/message"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/message"
+      android:textColor="@color/red"
+      />
+  
+  <TableLayout 
+     android:id="@+id/table"
+     android:layout_below="@+id/image"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:shrinkColumns="2"
+     >
+     <TableRow >
+ <Button 
+      android:id="@+id/ok"
+     android:layout_below="@+id/image"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:text="OK"
+     
+     />
+    <Button 
+      android:id="@+id/cancel"
+     android:layout_toRightOf="@+id/ok"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:text="Cancel" 
+     />
+    </TableRow>
+    </TableLayout>
+    
+
+</LinearLayout>
