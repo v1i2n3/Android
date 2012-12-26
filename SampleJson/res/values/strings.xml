@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">SampleJson</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dialog_message">Please wait, while data is loading...</string>
+
+</resources>
