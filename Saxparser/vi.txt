@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<user>
+<firstname>Vinod</firstname>
+<lastname>Richards</lastname>
+</user>
+<user>
+<firstname>Bindhu</firstname>
+<lastname>Reddy</lastname>
+</user>
+<user>
+<firstname>Munnisa</firstname>
+<lastname>shaik</lastname>
+</user>
+<user>
+<firstname>Ram</firstname>
+<lastname>Reddy</lastname>
+</user>
+<user>
+<firstname>David</firstname>
+<lastname>Hosley</lastname>
+</user>
+</root>
